@@ -1,0 +1,77 @@
+import React from 'react'
+
+
+const Login = () => {
+  return (
+    <div className="p-14">
+      
+    
+      
+
+
+      <form
+  action="#"
+  class="mx-auto max-w-md space-y-4 rounded-lg border-40 border-black bg-gray-100 p-6"
+>
+  <div>
+    <label class="block text-sm font-medium text-gray-900" for="name">Name</label>
+
+    <input
+      class="mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:outline-none"
+      id="name"
+      type="text"
+      placeholder="Your name"
+    />
+  </div>
+
+  <div>
+    <label class="block text-sm font-medium text-gray-900" for="email">Email</label>
+
+    <input
+      class="mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:outline-none"
+      id="email"
+      type="email"
+      placeholder="Your email"
+    />
+  </div>
+
+  <div>
+    <label class="block text-sm font-medium text-gray-900" for="subject">Subject</label>
+
+   
+  </div>
+
+  <div>
+    <label class="block text-sm font-medium text-gray-900" for="priority">Priority</label>
+
+    
+  </div>
+
+  <div>
+    <label class="block text-sm font-medium text-gray-900" for="message">Message</label>
+
+    <textarea
+      class="mt-1 w-full resize-none rounded-lg border-gray-300 focus:border-indigo-500 focus:outline-none"
+      id="message"
+      rows="4"
+      placeholder="Your message"
+    ></textarea>
+  </div>
+
+  <button
+    class="block w-full rounded-lg border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-indigo-600"
+    type="submit"
+  >
+    Send Message
+  </button>
+</form>
+
+
+
+
+
+    </div>
+  )
+}
+
+export default Login
